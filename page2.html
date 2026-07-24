@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: "Georgia", serif;
+            background-image: url("cute.JPG");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .container{
+            text-align:center;
+            background:rgba(255,255,255,0.80);
+            padding:60px 70px;
+            border-radius:20px;
+            backdrop-filter: blur(4px);
+        }
+
+        h1{
+            font-size:3rem;
+            color:#333;
+            margin-bottom:40px;
+            font-weight:normal;
+        }
+
+        button{
+            padding:16px 40px;
+            font-size:1.2rem;
+            border:none;
+            border-radius:999px;
+            cursor:pointer;
+
+            background:#ff5d8f;
+            color:white;
+
+            transition:0.25s;
+        }
+
+        button:hover{
+            transform:scale(1.05);
+            background:#ff3d79;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>I love you</h1>
+
+        <button onclick="nextPage()">
+            Continue →
+        </button>
+    </div>
+
+    <script>
+        function nextPage() {
+            window.location.href = "page3.html";
+        }
+    </script>
+
+</body>
+</html>
