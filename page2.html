@@ -15,9 +15,10 @@
         body{
             font-family: "Georgia", serif;
             background-image: url("cute.JPG");
-            background-size: cover;
+            background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
+            background-color: white;
 
             height:100vh;
             display:flex;
@@ -31,6 +32,8 @@
             padding:60px 70px;
             border-radius:20px;
             backdrop-filter: blur(4px);
+
+            transform: translateY(250px);
         }
 
         h1{
@@ -63,7 +66,7 @@
 <body>
 
     <div class="container">
-        <h1>I love you</h1>
+        <h1>I love you ❤️</h1>
 
         <button onclick="nextPage()">
             Continue →
